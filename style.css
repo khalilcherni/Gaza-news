@@ -48,7 +48,7 @@ nav ul li a{
     content: "";
     height: 3px;
     width: 0;
-    background: whitesmoke;
+    background: rgb(63, 32, 32);
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -131,7 +131,5 @@ h1{
     position: absolute;
     left: 2px;
     width: 100px;
-   
-
-    
+      
 }
