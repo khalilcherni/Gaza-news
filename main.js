@@ -29,5 +29,16 @@ heading.addEventListener("mouseout", function() {
     heading.innerHTML = "Palastine will be free";
 })
 
+function openFacebookLink() {
+    window.open('https://www.facebook.com/khalil.cherni.338/');
+}
 
-
+function openTwitterkLink() {
+    window.open('https://twitter.com/');
+}
+function openGmailLink(){
+    window.open("https://mail.google.com/mail/u/0/?hl=fr#inbox")
+}
+function openInstagramLink(){
+    window.open("https://www.instagram.com/khalil_cherni/")
+}
