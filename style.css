@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+body{
+background-image: url("https://th.bing.com/th/id/R.7b88f95042acbc7f29b2279af5ca4a54?rik=4EfK7m%2bxhJUseg&pid=ImgRaw&r=0");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.lo {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lo ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.lo ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.lo ul li a::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.lo ul li a:hover::after,
+.lo ul li a:focus::after {
+    width: 100%;
+}
+.navbar{
+    height: 12%;
+    display:flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(212, 52, 52);
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+
+}
+h1{
+    color: black;
+    font-size: 100px;
+}
+p{
+    color: black;
+    font-size: 11px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: whitesmoke;
+    border: 0;
+    border-radius: 20px;
+outline: none;
+margin-top: 30px;
+}
+
+.pa1{
+    background-image: url("");
+}
+.pa2{
+    background-image: url("");
+}
+.pa3{
+    background-image: url("");
+}
+.pa4{
+    background-image: url("");
+}
+.pa:hover{
+    transform: translateY(-10px);
+}
